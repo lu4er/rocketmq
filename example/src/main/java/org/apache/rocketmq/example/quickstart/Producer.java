@@ -45,6 +45,10 @@ public class Producer {
          * </pre>
          */
 
+		/**
+		 * 设置路由注册中心
+		 */
+		producer.setNamesrvAddr("127.0.0.1:9876");
         /*
          * Launch the instance.
          */
